@@ -1,0 +1,35 @@
+
+[property]
+gpu-id=0
+net-scale-factor=0.0039215697906911373
+model-color-format=0
+tlt-model-key=bnNpdjRjN2w2bWg1cDdubWd1cGhscmczN3A6OTFkZTdhM2UtMWUzZi00ZGRjLWE5NTAtOTAwYzQ5OTZhNzkw
+#tlt-model-key=tlt_encode
+tlt-encoded-model=resnet18_detector.etlt
+labelfile-path=defect_labels.txt
+# GPU Engine File
+model-engine-file=resnet18_detector.etlt_b1_gpu0_fp32.engine
+
+infer-dims=3;208;208
+uff-input-blob-name=input_1
+#force-implicit-batch-dim=1
+batch-size=1
+network-mode=0
+process-mode=1
+num-detected-classes=1
+interval=1
+gie-unique-id=1
+output-blob-names=output_cov/Sigmoid;output_bbox/BiasAdd
+cluster-mode=1
+
+[class-attrs-all]
+pre-cluster-threshold=0.3
+eps=0.3
+minBoxes=1
+#can be tweaked
+group-threshold=1
+
+[application]
+enable-perf-measurement=1
+perf-measurement-interval-sec=1
+
