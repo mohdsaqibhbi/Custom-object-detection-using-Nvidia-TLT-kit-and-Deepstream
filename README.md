@@ -87,11 +87,16 @@ Set API KEY in the **dstest3_pgie_config.txt** as
 
 I have trained an object detection model to detect the defect on the surface of metal objects. This type of models can be used in any manufacturing industries for quality check purpose of metal parts. Here is the inference output demo of our Defect Detection model.
 
+***Click to watch the video***
 
-[![Sample Output](https://youtu.be/7NOCFuCDX0A)](https://youtu.be/7NOCFuCDX0A)
-
+[![Sample Output](sample_image.png)](https://youtu.be/7NOCFuCDX0A)
 
 ## References
 
 - [Nvidia TLT Quick Start Guide](https://docs.nvidia.com/metropolis/TLT/tlt-user-guide/text/tlt_quick_start_guide.html)
 - [Nvidia Deepstream SDK](https://developer.nvidia.com/deepstream-sdk#:~:text=NVIDIA's%20DeepStream%20SDK%20delivers%20a,building%20IVA%20apps%20and%20services.)
+
+## Follow me
+
+- Follow me on [Linkedin](https://www.linkedin.com/in/mohdsaqibhbi)
+- Subscribe my [Youtube channel](https://www.youtube.com/channel/UCooZBjTCrnM3LH1nIqAmDQA)
