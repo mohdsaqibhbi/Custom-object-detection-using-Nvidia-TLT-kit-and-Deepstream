@@ -98,5 +98,5 @@ I have trained an object detection model to detect the defect on the surface of 
 
 ## Follow me
 
-- Follow me on [Linkedin](https://www.linkedin.com/in/mohdsaqibhbi)
-- Subscribe my [Youtube channel](https://www.youtube.com/channel/UCooZBjTCrnM3LH1nIqAmDQA)
+- Follow me on Linkedin: [mohdsaqibhbi](https://www.linkedin.com/in/mohdsaqibhbi)
+- Subscribe my Youtube channel: [StarrAI](https://www.youtube.com/channel/UCooZBjTCrnM3LH1nIqAmDQA)
