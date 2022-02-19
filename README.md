@@ -88,11 +88,8 @@ Set API KEY in the **dstest3_pgie_config.txt** as
 I have trained an object detection model to detect the defect on the surface of metal objects. This type of models can be used in any manufacturing industries for quality check purpose of metal parts. Here is the inference output demo of our Defect Detection model.
 
 
-[![Sample Output](sample_image.png)](https://youtu.be/7NOCFuCDX0A)
+[![Sample Output](https://youtu.be/7NOCFuCDX0A)](https://youtu.be/7NOCFuCDX0A)
 
-\begin{center}
-***Watch the video***
-\end{center}
 
 ## References
 
