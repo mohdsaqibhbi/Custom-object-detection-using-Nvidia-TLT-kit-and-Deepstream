@@ -70,7 +70,7 @@ This repo is about how to train a custom object detection model (using DetectNet
     - Copy-paste the URL to the browser and replace the localhost IP in the URL with the public IP of the EC2 instance.
 
 
-10. Goto ```examples/detectnet_v2``` directory and run the notebook. Step-by-step follow **[detectnet_v2.ipynb]()** notebook for training. Follow this for TLT kit documentation.
+10. Goto ```examples/detectnet_v2``` directory and run the notebook. Step-by-step follow **[detectnet_v2.ipynb](examples/detectnet_v2.ipynb)** notebook for training. Follow this for TLT kit documentation.
 11. While exporting the model for Deepstream on a Jetson nano device make sure it’s FP32 or FP16. Jetson nano device doesn’t support INT8.
 
 ### Steps for running the model on Jetson
@@ -81,13 +81,14 @@ This repo is about how to train a custom object detection model (using DetectNet
 Set API KEY in the **dstest3_pgie_config.txt** as
     ```tlt-model-key=tlt_encode```
 
-4. Run deepstream-test3 by following this and see the output.
+4. Run deepstream-test3 by following [this](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/master/apps/deepstream-test3) and see the output.
 
 ## Demo
 
 I have trained an object detection model to detect the defect on the surface of metal objects. This type of models can be used in any manufacturing industries for quality check purpose of metal parts. Here is the inference output demo of our Defect Detection model.
 
-[![Sample Output]()](https://youtu.be/7NOCFuCDX0A)
+[![Sample Output](sample_image.png)](https://youtu.be/7NOCFuCDX0A)
+
 ## References
 
 - [Nvidia TLT Quick Start Guide](https://docs.nvidia.com/metropolis/TLT/tlt-user-guide/text/tlt_quick_start_guide.html)
